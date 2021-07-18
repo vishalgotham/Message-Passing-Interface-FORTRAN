@@ -1,4 +1,4 @@
-# MPI-Fortran
+# Sequential Algorithm for 1D Heat Equation-Fortran
 A sequential and parallel codes are developed in FORTRAN for 1D Heat equation for a rod of domain, using MPI protocols. The parallel code is validated using the sequential code by plotting the temperature field at two different times, different parallel performance parameters are recorded in order to justify the code. The point-to-point communication and non-blocking synchronous send is utilised for a parallel MPI code to reduce the cost of communication between boundaries exchange and overall reduction in execution time.
 
 1. Message Passing Interface (MPI):- The sequential algorithms can be run in any processor which support sequential algorithms, but the time consumed using sequential for a bigger problem size are reflected in cost of computation. Hence MPI, which also provides portability of code across different platforms reduces the cost of computation by running particular program across different devices, that is same message passing code can be run on different machines.
